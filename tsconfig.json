@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "dist",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "noImplicitOverride": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "lib": [
+            "ES2021.String"
+        ]
+    },
+    "exclude": [
+        "./node_modules"
+    ],
+    "include": [
+        "./**/*.ts"
+    ]
+}
